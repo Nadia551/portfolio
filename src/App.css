@@ -138,7 +138,7 @@
 
 .homepagebackground {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
@@ -149,6 +149,10 @@
 }
 .row {
   padding-top: 80px;
+}
+
+.fixedheight {
+  height: 100vh;
 }
 
 .wave {
@@ -186,7 +190,7 @@
   }
 }
 .Typewriter__wrapper {
-  font-size: 2.0em !important;
+  font-size: 2em !important;
   color: #191919 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
@@ -203,22 +207,22 @@
   letter-spacing: 1px !important;
 }
 .nametext {
-  font-size: 2.0em !important;
+  font-size: 2em !important;
   color: #191919 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
 .imagedeveloper {
   margin-top: 50px;
- width: 700px;
+  width: 700px;
   height: 600px;
   background-image: url(./Assets/girl2.png);
   background-size: cover;
   background-position: center;
 }
 .computerimage {
-  width:700px;
-  height:600px;
+  width: 700px;
+  height: 600px;
 }
 .socailmediabtn {
   margin-top: 2rem;
@@ -421,7 +425,7 @@
 }
 
 @media (max-width: 767px) {
-  .project-section{
+  .project-section {
     padding-top: 40px !important;
   }
 }
@@ -474,7 +478,7 @@
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.copyright span{
+.copyright span {
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -506,8 +510,7 @@
   margin-bottom: 20px;
 }
 .briefcase {
-  
-  height:550px;
+  height: 550px;
 }
 
 /* my-styles.css */
@@ -519,10 +522,12 @@
 }
 
 .my-card {
-  transition: transform 0.2s, box-shadow 0.2s; 
-    background-color: #000000; /* Set the background color */
-    color: #343838; /* Set the text color */
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #000000; /* Set the background color */
+  color: #343838; /* Set the text color */
   /* Add transition for smooth scaling */
 }
-
-
+.handson {
+  height: 750px;
+  width: 600px;
+}
